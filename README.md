@@ -125,12 +125,14 @@ App opens at: `http://localhost:8501`
 
 ---
 
-## 📞 Support
+** OUTPUT **
 
-- 📧 GitHub Issues: Report problems
-- 💬 Streamlit Community: Get help
 
----
+
+<img width="1340" height="559" alt="image" src="https://github.com/user-attachments/assets/3fafaec1-9c72-422a-8d4d-dc654a434420" />
+<img width="1334" height="559" alt="image" src="https://github.com/user-attachments/assets/e8818c14-f9d0-412c-ad9a-17f11efa006e" />
+
+
 
 ## 🎉 Quick Links
 
