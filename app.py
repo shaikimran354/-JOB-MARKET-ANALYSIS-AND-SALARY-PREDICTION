@@ -156,9 +156,6 @@ with tab1:
             
         st.subheader("Raw Data Preview")
         st.dataframe(display_df.head(10))
-            
-        st.subheader("Raw Data Preview")
-        st.dataframe(filtered_df.head(10))
         
         # Download button
         csv = raw_df.to_csv(index=False).encode('utf-8')

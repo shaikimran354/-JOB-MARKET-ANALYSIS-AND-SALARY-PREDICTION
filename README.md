@@ -31,13 +31,13 @@ A complete Machine Learning application for AI/ML job market analysis with inter
 ├── app.py                      # Main Streamlit app
 ├── requirements.txt            # Dependencies
 ├── README.md                   # Documentation
+├── run_project.bat             # Windows launch script
 ├── data/ds_salaries.csv        # Dataset (1000 rows)
 ├── models/best_model.pkl       # Trained model
-├── src/
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   └── prediction.py
-└── .streamlit/config.toml      # Streamlit config
+└── src/
+    ├── data_preprocessing.py
+    ├── model_training.py
+    └── prediction.py
 ```
 
 ---
@@ -86,25 +86,6 @@ App opens at: `http://localhost:8501`
 - 🤖 ML-powered predictions
 - 📥 Dataset download option
 - 🎨 Dark theme UI
-
----
-
-## 🌐 Deployment
-
-### Deploy on Streamlit Cloud
-
-1. **Push to GitHub:**
-   ```bash
-   git push -u origin main
-   ```
-
-2. **Deploy:**
-   - Go to [share.streamlit.io](https://share.streamlit.io)
-   - Connect GitHub repository
-   - Select main file: `app.py`
-   - Click Deploy
-
-3. **Live URL:** `https://your-username.streamlit.app`
 
 ---
 
@@ -160,20 +141,3 @@ App opens at: `http://localhost:8501`
 ---
 
 **Made with ❤️ | April 2026**
-python setup.py
-```
-
-#### 4. Start the Application
-```bash
-streamlit run app.py
-```
-
-Navigate to the provided localhost URL (usually `http://localhost:8501`) to experience the AI Job Predictor.
-
-## Usage
-1. **EDA Tab:** Explore the dataset with interactive filters and visualizations.
-2. **Model Training Tab:** Train ML models and view performance metrics with feature importance.
-3. **Salary Prediction Tab:** Input job details to get salary predictions.
-
-## Deployment Notes
-This project is designed to be fully compatible with Streamlit Community Cloud. Simply connect this repository and set the main file path to `app.py`.
